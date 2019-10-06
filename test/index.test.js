@@ -19,7 +19,7 @@ describe("normalize", () => {
       name: 'ken'
     }
 
-    expect(
+    expect(normalize(input, User).toBe({})
   })
 
   test("does not modify the original input", () => {
